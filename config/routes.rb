@@ -1,15 +1,12 @@
 Rails.application.routes.draw do
   devise_for :users
   resources :listings
+  
   get 'pages/about'
-
   get 'pages/contact'
+  get 'seller' => "listings#seller"
 
-  # The priority is based upon order of creation: first created -> highest priority.
-  # See how all your routes lay out with "rake routes".
-
-  # You can have the root of your site routed with "root"
-    root 'listings#index'
+  root 'listings#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
