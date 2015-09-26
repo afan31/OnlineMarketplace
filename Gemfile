@@ -16,6 +16,8 @@ gem "paperclip", "~> 4.3"
 gem "paperclip-dropbox", ">= 1.1.7"
 # for secure entry
 gem "figaro"
+# to add users
+gem 'devise'
 
 group :production do
 	gem 'pg'
