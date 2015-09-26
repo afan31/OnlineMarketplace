@@ -12,6 +12,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass', '~> 3.3.5'
 #for images in index page
 gem "paperclip", "~> 4.3"
+# for dropbx
+gem "paperclip-dropbox", ">= 1.1.7"
+# for secure entry
+gem "figaro"
 
 group :production do
 	gem 'pg'
