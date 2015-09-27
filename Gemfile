@@ -1,3 +1,4 @@
+
 source 'https://rubygems.org'
 ruby "2.2.1"
 gem 'rails', '4.2.4'
@@ -18,6 +19,8 @@ gem "paperclip-dropbox", ">= 1.1.7"
 gem "figaro"
 # to add users
 gem 'devise'
+# for payments
+gem 'stripe'
 
 group :production do
 	gem 'pg'
