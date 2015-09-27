@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
-  
-  
+ 
   devise_for :users
   resources :listings do
     resources :orders, only: [:new, :create]
@@ -14,7 +13,6 @@ Rails.application.routes.draw do
   
 
   root 'listings#index'
-
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

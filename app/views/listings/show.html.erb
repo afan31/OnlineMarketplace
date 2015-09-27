@@ -9,7 +9,7 @@
 		<p><%= number_to_currency(@listing.price) %></p><br>
 		<p><%= @listing.description %></p><br>
 		<div class = "center">
-			<p><%= link_to "Buy It Now", new_listing_order_path(@listing) , class: "btn btn-primary" %></p>
+			<p><%= link_to "Buy It Now", new_listing_order_path(@listing) , class: "btn btn-primary", data: { no_turbolink: true } %></p>
 		</div>
 
 	</div>
