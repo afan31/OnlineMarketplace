@@ -44,7 +44,9 @@ class ListingsController < ApplicationController
         )
     end
 
-    current_user.recipient = recipient.id
+    if current_user.recipient.blank?
+      current_user.recipient = recipient.id
+    end
     current_user.save
 
     respond_to do |format|
