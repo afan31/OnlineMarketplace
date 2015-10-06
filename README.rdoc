@@ -1,28 +1,7 @@
-== README
+Online Marketplace
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This application is a two sided marketplace where users can buy and sell things from a single platform. Users create an account in the application and put in their bank details. To provide security, user's bank details are not stored in the database. They are stored in a third party application's database called Stripe.
 
-Things you may want to cover:
+A signed in user can upload a listing that he wishes to sell on the platform. Another user can then sign in and buy an item of his choice. The transactions are highly secure and happen through Stripe API. 
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+The application is deployed in Heroku and the images of the listings and other images used by the application are hosted in DropBox.
