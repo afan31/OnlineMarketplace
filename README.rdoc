@@ -4,4 +4,4 @@ This application is a two sided marketplace where users can buy and sell things 
 
 A signed in user can upload a listing that he wishes to sell on the platform. Another user can then sign in and buy an item of his choice. The transactions are highly secure and happen through Stripe API. 
 
-The application is deployed in Heroku and the images of the listings and other images used by the application are hosted in DropBox.
+The application is deployed in Heroku and the images of the listings and other images used by the application are hosted in Dropbox.
